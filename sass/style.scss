@@ -1,0 +1,21 @@
+*{
+    color: white;
+}
+
+//importando variaveis
+@import "./elementosComum/variaveis.scss";
+
+//importante elementos comuns
+@import "./elementosComum/comum.scss";
+
+//importando pagina home
+@import "./paginas/home.scss";
+
+//importando pagina falcon
+@import "./paginas/falcon.scss";
+
+//importando pagina human
+@import "./paginas/human.scss";
+
+//importando icones do bootstrap
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");

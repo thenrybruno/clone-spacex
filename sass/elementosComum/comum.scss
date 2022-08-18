@@ -1,0 +1,90 @@
+.header{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logoPc {
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+#btn{
+    border: 2px solid white;
+}
+
+.footer{
+    background-color: black;
+    height: 15vh;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+            color: $hover;
+        }
+    }
+}
+
+.copyOBC{
+    color: $copyright;
+}
+
+@media (max-width: 405px) {
+    .logoPc {
+    width: 180px;
+    margin-top: 15px;
+    }
+    .footer {
+    font-size: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logoPc {
+    width: 150px;
+    margin-top: 15px;
+    }
+} 
+
+//parte comum a partir de falcon
+.downloadDesc {
+    background-color: rgb(48, 43, 43);
+    padding-top: 350px;
+    font-size: 20px;
+    a {
+        text-decoration: none;
+        color: $hover;
+        &:hover {
+        color: $item-tabela;
+        }
+    }
+    button {
+        border: 2px solid white;
+        margin-right: 10px;
+    }
+}
+
+.container08{
+    min-height: 50vh;
+}
+
+
+@media (max-width: 510px) {
+    .downloadDesc {
+        button {
+        margin: 10px 0px;
+        }
+    }
+}
